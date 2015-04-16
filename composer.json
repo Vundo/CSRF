@@ -1,0 +1,20 @@
+{
+  "name": "vundo/csrf",
+  "description": "Simple CSRF token class",
+  "type": "library",
+  "keywords": ["csrf", "security", "token", "tokens"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mirko Kroese",
+      "email": "mirko@vundo.nl"
+    },
+    {
+      "name": "Janyk Steenbeek",
+      "email": "janyk@vundo.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"Vundo\\CSRF\\": "CSRF"}
+  }
+}
