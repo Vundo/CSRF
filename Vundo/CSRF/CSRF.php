@@ -31,7 +31,8 @@ class CSRF {
     public static function check($token)
     {
         if(isset($_SESSION['token']) && $token === $_SESSION['token']) {
-            if(explode("|", base64_decode($token))[0] !== md5($_SERVER['REMOTE_ADDR'])) {
+            $ex = explode("|", base64_decode($token));
+            if($ex[0] !== md5($_SERVER['REMOTE_ADDR'])) {
                 return false;
             }
 
