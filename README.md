@@ -27,7 +27,7 @@ echo <<<EOT
 	<body>
 		<form action="submit.php" method="POST">
 			<input type="hidden" name="_token" value="{$token}">
-			<inpu type="submit" value="Submit">
+			<input type="submit" value="Submit">
 		</form>
 	</body>
 </html>
