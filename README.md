@@ -1,6 +1,8 @@
 # CSRF
 Simple to use CSRF token class, built by Vundo
 
+[![Latest Stable Version](https://poser.pugx.org/vundo/csrf/v/stable)](https://packagist.org/packages/vundo/csrf) [![Total Downloads](https://poser.pugx.org/vundo/csrf/downloads)](https://packagist.org/packages/vundo/csrf) [![Latest Unstable Version](https://poser.pugx.org/vundo/csrf/v/unstable)](https://packagist.org/packages/vundo/csrf) [![License](https://poser.pugx.org/vundo/csrf/license)](https://packagist.org/packages/vundo/csrf) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/f80df15f-84d7-46d5-87a9-5faa1f95aa2e/mini.png)](https://insight.sensiolabs.com/projects/f80df15f-84d7-46d5-87a9-5faa1f95aa2e)
+
 ## Install
 
 You can install the package via Composer by running ```composer require vundo/csrf``` or by adding ```"vundo/csrf": "dev-master"``` into your require section in your composer.json file. After that, please require the Composer autoloader into your PHP project.
